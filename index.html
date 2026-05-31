@@ -5179,7 +5179,7 @@
           </h3>
 
           <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-         
+
             <input type="hidden" name="access_key" value="90a7836f-0152-485d-a874-52d268d4b5d4">
             <!-- NAME + EMAIL -->
 
@@ -5203,26 +5203,35 @@
 
             </div>
 
-            <!-- SUBJECT -->
+            <div class="form-row">
+              <!-- SUBJECT -->
 
-            <div class="form-group">
+              <div class="form-group">
 
-              <label>Subject</label>
+                <label>Subject</label>
 
-              <select id="subject" name="subject">
+                <select id="subject" name="subject">
 
-                <option>Full-time Opportunity</option>
+                  <option>Full-time Opportunity</option>
 
-                <option>Freelance Project</option>
+                  <option>Freelance Project</option>
 
-                <option>UI/UX Consultation</option>
+                  <option>UI/UX Consultation</option>
 
-                <option>Collaboration</option>
+                  <option>Collaboration</option>
 
-              </select>
+                </select>
 
+              </div>
+              <div class="form-group">
+
+                <label>Phone Number</label>
+
+                <input type="tel" name="phone" placeholder="Your Phone Number" pattern="[0-9]{10}"
+                  title="Please enter a valid 10-digit phone number" required>
+
+              </div>
             </div>
-
             <!-- MESSAGE -->
 
             <div class="form-group">
